@@ -1,0 +1,11 @@
+{
+    "SECRET_KEY": "anything you'd like",
+    "RECAPTCHA_PUBLIC_KEY": "google recaptcha",
+    "RECAPTCHA_PRIVATE_KEY": "google recaptcha",
+    "EMAIL_SEND": "the email you'll be sending from (leave empty to disable)",
+    "EMAIL_SEND_PASS": "the APP PASS provided from google, or the real password",
+    "EMAILS_RECEIVE": [
+        "The email you want to send to",
+        "The email you want to send to"
+    ]
+} 
