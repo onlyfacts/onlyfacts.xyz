@@ -1,4 +1,5 @@
 config.json
+config-copy.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

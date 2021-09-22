@@ -6,9 +6,9 @@ from email.message import EmailMessage
 with open('../config.json', 'r') as f:
     conf = json.load(f)
 
-EMAIL_ADDRESS = conf['EMAIL_SEND']
-EMAIL_PASSWORD = conf['EMAIL_SEND_PASS']
-contacts = conf['EMAILS_RECEIVE']
+EMAIL_ADDRESS = conf.get('EMAIL_SEND')
+EMAIL_PASSWORD = conf.get('EMAIL_SEND_PASS')
+contacts = conf.get('EMAILS_RECEIVE')
 
 def send(subject, message):
     """ Sends email to my phone number. """

@@ -17,7 +17,7 @@ app.config['RECAPTCHA_PRIVATE_KEY'] = conf['RECAPTCHA_PRIVATE_KEY']
 
 SEND = True
 if not (
-    conf['EMAIL_SEND'] and conf['EMAIL_SEND_PASS'] and conf['EMAILS_RECEIVE']
+    conf.get('EMAIL_SEND') and conf.get('EMAIL_SEND_PASS') and conf.get('EMAILS_RECEIVE')
 ):
     SEND = False
 
