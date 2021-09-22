@@ -1,0 +1,211 @@
+{
+    "COVID": [
+        {
+            "fact": "For school age children: 0-17, the case-fatality rate is 89 in 1 million. Which is statistically 0%.",
+            "source": [
+                "https://www.statista.com/statistics/1254271/us-total-number-of-covid-cases-by-age-group/",
+                "https://www.statista.com/statistics/1191568/reported-deaths-from-covid-by-age-us/"
+            ]
+        },
+        {
+            "fact": "CDC: Less than 1 in 10,000 chance of contracting COVID from surfaces.",
+            "source": "https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/surface-transmission.html"
+        },
+        {
+            "fact": "CDC: 6% of COVID deaths were caused by COVID alone. 94% had preexisting conditions (comorbidities).",
+            "source": "https://www.cdc.gov/nchs/data/health_policy/covid19-comorbidity-expanded-12092020-508.pdf"
+        },
+        {
+            "fact": "Nearly one third of U.S. COVID deaths are linked to nursing homes, but they stopped reporting these numbers after June 1, 2021.",
+            "source": "https://www.nytimes.com/interactive/2020/us/coronavirus-nursing-homes.html"
+        },
+        {
+            "fact": "The statistic that 97% of COVID hospitalizations are unvaccinated comes from January-June, 2021. During this period, the vast majority of Americans were not vaccinated.",
+            "source": "https://covid19.healthdata.org/united-states-of-america?view=vaccinations&tab=trend"
+        },
+        {
+            "fact": [
+                "The cycle threshold (the number of cycles needed to detect a virus in a PCR test)--usually set at around 40--is far too high and can result in many false positives.",
+                "In New York's state lab, the Wadsworth Center, if the CT had been set to 35 from 40, 43% of positive tests would have shown up negative. If it were more sensitive, a CT of 30, then 63% would have been false positives.",
+                "A CT too high can detect dead RNA which had been left over from previous infection, like finding a hair in a room long after the person had left."
+            ],
+            "source": [
+                "https://medicine.yale.edu/labmed/sections/virology/COVID-19%20Ct%20values_YNHH%20Aug.%202020%20_395430_36854_v1.pdf",
+                "https://www.nytimes.com/2020/08/29/health/coronavirus-testing.html"
+            ]
+        }
+    ],
+    "Vaccine Safety": [
+        {
+            "fact": "A doctor in Texas testified that when animals were vaccinated, it allowed the virus to enter their bodies and replicate unnoticed. Nearly every animal died. They decided to ignore these results and move on to roll out the vaccine nationwide.",
+            "source": "https://authentictexan.com/doctor-covid-vaccine-dangers-texas/"
+        },
+        {
+            "fact": "On table 4 of this study, the data shows that out of the 827 women, 700 of them received their first vaccine in their third trimester of pregnancy. This means 127 women received a vaccine during their first or second trimesters.Out of the 127 women receiving vaccines during their first or second trimesters, 104 spontaneous abortions occurred before their pregnancies hit the 20-week mark. That is an 82% rate of spontaneous abortions in first and second trimester pregnant women.",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/33882218/"
+        },
+        {
+            "fact": "Teenage boys 12-17 are 6 times more likely to suffer heart problems from the vaccine than to be hospitalized from COVID.",
+            "source": "https://www.medrxiv.org/content/10.1101/2021.08.30.21262866v1"
+        },
+        {
+            "fact": "Over 100 people under the age of 26 were hospitalized for heart inflammation after receiving the vaccine.",
+            "source": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-myocarditis-pericarditis-vaccines-epi.pdf?sc_lang=en"
+        },
+        {
+            "fact": "AstraZeneca, J&J working on 'modifications' to eliminate potentially deadly side effects.",
+            "source": "https://www.zerohedge.com/covid-19/astrazeneca-jj-working-modifications-eliminate-potentially-deadly-side-effects"
+        },
+        {
+            "fact": "Vaccinations halted in Japan vaccination center over contamination from 'black substances' found in vials of Moderna vaccines.",
+            "source": "https://www3.nhk.or.jp/nhkworld/en/news/20210829_09/"
+        },
+        {
+            "fact": "Japanese Ministry of Health announced that around 1.6 million doses of Moderna's vaccine have been taken out of use due to contamination in some vials that 'react to magnets.'",
+            "source": "https://www.zerohedge.com/covid-19/japan-withdraws-16-million-moderna-doses-over-contaminant-reacts-magnets"
+        },
+        {
+            "fact": "Contaminated Pfizer vaccines reported in several Japanese cities.",
+            "source": "https://www.zerohedge.com/covid-19/contaminated-pfizer-vaccines-reported-several-japanese-cities"
+        },
+        {
+            "fact": "16-Year-Old Who Suffered Heart Attack After Taking Pfizer Vaccine Receives $225,000 Settlement From Singapore Government",
+            "source": "https://nationalfile.com/16-year-old-who-suffered-heart-attack-after-taking-pfizer-vaccine-receives-225000-settlement-from-singapore-government/"
+        }
+    ],
+    "Vaccine Efficacy": [
+        {
+            "fact": "Report out of Israel found Pfizer vaccine is 39% effective.",
+            "source": "https://www.cnbc.com/2021/07/23/delta-variant-pfizer-covid-vaccine-39percent-effective-in-israel-prevents-severe-illness.html"
+        },
+        {
+            "fact": "Cornell has a 95% vaccination rate, but has 5 times more COVID than it did last year.",
+            "source": "https://www.thecollegefix.com/despite-95-vaccination-rate-cornell-today-has-five-times-more-covid-cases-than-it-did-this-time-last-year/"
+        },
+        {
+            "fact": "CDC reports that from January - April 2021 there have been 10,000 breakthrough cases.",
+            "source": "https://www.cdc.gov/mmwr/volumes/70/wr/mm7021e3.htm"
+        },
+        {
+            "fact": "A study from Israel reports that the vaccine is not effective against the South African variant (Beta).",
+            "source": [
+                "https://www.washingtonexaminer.com/news/study-covid-variant-pfizer-vaccinated-unvaccinated",
+                "https://www.sciencedirect.com/science/article/abs/pii/S1931312821001360"
+            ]
+        },
+        {
+            "fact": "CDC: Similar amount of Delta variant found in vaccinated and unvaccinated people.",
+            "source": [
+                "https://www.cnn.com/2021/07/30/health/breakthrough-infection-masks-cdc-provincetown-study/index.html",
+                "https://www.cdc.gov/mmwr/volumes/70/wr/mm7031e2.htm?s_cid=mm7031e2_w"
+            ]
+        },
+        {
+            "fact": "10,000 breakthrough cases reported from January 1 to April 30, 2021.",
+            "source": "https://www.cdc.gov/mmwr/volumes/70/wr/mm7021e3.htm"
+        },
+        {
+            "fact": "CDC reports vaccine efficacy for preventing hospitalization is considerably lower (75-95%) than initially thought (97%).",
+            "source": "https://archive.is/RCXWT"
+        }
+    ],
+    "Vaccine alternatives": [
+        {
+            "fact": "According the the NIH, ivermectin is an approved drug for treating COVID.",
+            "source": "https://www.covid19treatmentguidelines.nih.gov/tables/table-2e/"
+        },
+        {
+            "fact": "Meta analysis of use of ivermectin for treating and preventing COVID has found large, statistically significant reductions in mortality, time to clinical recovery, and time to viral clearance. Furthermore, trials report significantly reduced risks of contracting COVID-19 with the regular use of ivermectin.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8088823/"
+        },
+        {
+            "fact": "Large reductions in COVID-19 deaths are possible using ivermectin. Using ivermectin early in the clinical course may reduce numbers progressing to severe disease.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8248252/"
+        },
+        {
+            "fact": [
+                "Rolling Stone released a story of a doctor claiming her hospital had delays in treating other patients because they were busy taking care of ivermectin overdoses.",
+                "This story was retracted and it was found that this doctor had not worked there in 2 months and her hospital group has stated that they have not treated any ivermectin overdoses and they have not had to turn anyone away."
+            ],
+            "source": "https://www.rollingstone.com/politics/politics-news/gunshot-victims-horse-dewormer-ivermectin-oklahoma-hospitals-covid-1220608/"
+        },
+        {
+            "fact": [
+                "Uttar Pradesh, India, government says early use of ivermectin helped to keep positivity, deaths low.",
+                "They are reporting that their positivity rate has decrease to 0.01%.",
+                "The have 33 districts in Uttar Pradesh that are COVID-free.",
+                "They have reported that their recovery rate has increase to 98.7% with 199 active cases in the state."
+            ],
+            "source": [
+                "https://indianexpress.com/article/cities/lucknow/uttar-pradesh-government-says-ivermectin-helped-to-keep-deaths-low-7311786/",
+                "https://www.hindustantimes.com/cities/lucknow-news/33-districts-in-uttar-pradesh-are-now-covid-free-state-govt-101631267966925.html"
+            ]
+        },
+        {
+            "fact": "The head of the Tokyo Metropolitan Medical Association urged doctors and Covid-19 patients to begin a regimen of ivermectin, which he says is effective at treating and preventing the virus.",
+            "source": "https://www.youtube.com/watch?v=DeHBSg9ejP8&t=1098s"
+        },
+        {
+            "fact": [
+                "An Israeli study concluded that natural immunity is better than getting vaccine to protect against COVID and variants.",
+                "This study concluded that the variant was 27 times more likely to break through Pfizer protection from January-February and cause symptoms than it was to penetrate natural immunity from the same period."
+            ],
+            "source": [
+                "https://www.advisory.com/daily-briefing/2021/08/31/covid-protection",
+                "https://www.medrxiv.org/content/10.1101/2021.08.24.21262415v1"
+            ]
+        }
+    ],
+    "Vaccine Passports": [
+        {
+            "fact": "Israeli Minister of Health was recorded saying, \"there is no medical justification for the COVID passport, it is only intended to pressure people to get vaccinated.\"",
+            "source": "https://twitter.com/disclosetv/status/1437396043424059396"
+        },
+        {
+            "fact": "UK government says vaccine passports are \"first line of defense,\" for the upcoming winter wave nearly 24 hours after health secretary said vaccine passports had been completely scrapped.",
+            "source": "https://www.thetimes.co.uk/article/covid-vaccine-passports-can-still-help-defeat-winter-wave-no-10-insists-3zv90szj8?utm_medium=Social&utm_source=Twitter#Echobox=1631513420"
+        },
+        {
+            "fact": "WHO released plan for global digital vaccine passports funded by Bill Gates and Rockefeller foundation.",
+            "source": "https://www.cnbc.com/2021/07/23/delta-variant-pfizer-covid-vaccine-39percent-effective-in-israel-prevents-severe-illness.html"
+        }
+    ],
+    "We are not alone": [
+        {
+            "fact": "Hospital forced to stop delivering babies in Lowville, New York after maternity unit workers resign over vaccine mandates.",
+            "source": "https://www.wwnytv.com/2021/09/10/hospital-stop-delivering-babies-maternity-workers-resign-over-vaccine-mandate/"
+        },
+        {
+            "fact": "24 states stand against vaccine mandates for businesses.",
+            "source": "https://ago.wv.gov/Documents/AGs'%20letter%20to%20Pres.%20Biden%20on%20vaccine%20mandate%20(FINAL)%20(02715056xD2C78).PDF"
+        },
+        {
+            "fact": "125 Indiana hospital employees quit over COVID vaccine mandate.",
+            "source": "https://fox59.com/news/coronavirus/125-employees-leave-iu-health-over-covid-19-vaccine-mandate/"
+        },
+        {
+            "fact": "Disney World employees are staging a march against a company vaccine mandate.",
+            "source": "https://www.fox35orlando.com/news/disney-world-workers-to-march-against-company-vaccine-mandate"
+        },
+        {
+            "fact": "Majority of New York restaurants are NOT enforcing the NYC vaccine mandate.",
+            "source": "https://www.youtube.com/watch?v=rDvCCrcQ198&t=1s"
+        },
+        {
+            "fact": "Nearly one half of Americans believe Biden's vaccine mandate has gone too far.",
+            "source": "https://poll.qu.edu/poll-release?releaseid=3820"
+        },
+        {
+            "fact": "Arizona is suing Biden administration over vaccine mandates.",
+            "source": "https://www.cbsnews.com/news/arizona-sues-biden-administration-covid-19-vaccine-mandates/"
+        },
+        {
+            "fact": "Arkansas sheriff’s department says it will not enforce vaccine mandates on its staff via statement released on Facebook.",
+            "source": "https://www.facebook.com/cleburnecountysheriff/photos/a.1220559481332206/4408623939192395/"
+        },
+        {
+            "fact": "Senator Rand Paul, son of Ron Paul, said on Twitter, \"Vaccine mandates that ignore natural immunity ignore the science, are unscientific, and should not be adhered to or promulgated by the government.\"",
+            "source": "https://twitter.com/RandPaul/status/1436078871854649344"
+        }
+    ]
+}

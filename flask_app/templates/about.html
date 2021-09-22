@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+{% endblock css %}
+
+{% block content %}
+
+<h1>About</h1>
+<div class="about">
+    <img src="{{ url_for('static', filename='no-step.jpg') }}" alt="no-step">
+    <h2>Mission Statement:</h2>
+    <p>To add legitimacy to the apolitical, pro-liberty, and anti-COVID-vaccine movement which so many Americans are a part of.<br>Open-mindedness and education are the goals.
+    <blockquote>
+            "We know what totalitarian looks like, we know what oppression looks like,
+            we know what the dumb culture of totalitarianism smells like. This is it! It's happening now,
+            and the future of the world is being decided. So, get out there, make your own sites, take action!"
+            - Alex Jones
+    </blockquote>
+    <br>
+    <h2>About me:</h2>
+    <p>My name is Connor Swislow and I am a highschool student with a passion for <strong>liberty</strong>. I have not gotten the vaccine and I do not plan on doing so. I respect other's decisions, but based on my research, I have decided to not get it.</p>
+</div>
+{% endblock content %}

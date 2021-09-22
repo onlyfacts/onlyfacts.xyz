@@ -1,0 +1,61 @@
+html {
+    scroll-padding: 8vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fafafa;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #505050;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+a:link, a:visited {
+    color: #008000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #208020;
+    text-decoration: underline;
+}
+
+.nav li:hover {
+    background-color: #333333;
+}
+
+.alert {
+    padding-top: 6rem;
+    padding-bottom: 1vh;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #008000;
+    color: white;
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+@media screen and (max-width: 770px) {
+    #nav {
+        position: static;
+    }
+}

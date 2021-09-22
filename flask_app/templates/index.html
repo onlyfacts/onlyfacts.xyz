@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+{% block css %}
+    <link rel="stylesheet" href="{{url_for('static', filename='facts.css')}}">
+{% endblock css %}
+
+
+{% block content %}
+<h1>Welcome to my incredible fact sheet!</h1>
+
+<div class="row">
+    <div class="col-sm-2 index">
+        <strong>Index:</strong>
+        <ul id="index">
+            {% for category in sources %}
+                <li><a href="#{{ category }}">{{ category }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-lg-10 facts">
+        {% for category in sources %}
+            <h2 id="{{ category }}">{{ category }}</h2>
+            <dl>
+            {% for entry in sources[category] %}
+                {% if entry.fact is string %}
+                    <dt>- {{ entry.fact }}</dt>
+                {% else %}
+                    {% for fact in entry.fact %}
+                        <dt>- {{ fact }}</dt>
+                    {% endfor %}
+                {% endif %}
+                {% if entry.source is string %}
+                    <dd>&emsp;- <a href="{{ entry.source }}" target="_blank">{{ entry.source }}</a></dd>
+                {% else %}
+                    {% for source in entry.source %}
+                        <dd>&emsp;- <a href="{{ source }}" target="_blank">{{ source }}</a></dd>
+                    {% endfor %}
+                {% endif %}
+                <br>
+            {% endfor %}
+            </dl>
+        {% endfor %}
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+        var liElements = document.getElementById('index').children[0].children;
+
+        for(key in liElements) {
+            liElements[key].firstChild.onclick =
+                function yourFunction(ev){
+                var element = ev.target || ev.srcElement;
+                var targetSection = element.getAttribute('href');
+        
+                window.scrollTo(0, document.getElementById(targetSection).offsetTop-55);
+                };
+        }
+    </script>
+{% endblock content %}

@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="col-lg-12">
+        <h1 style="padding-left: 0;">Submit a fact!</h1>
+        <p>All facts are hand-reviewed to ensure validity.</p>
+        <form method="POST" action="{{ url_for('submit') }}">
+            {{ form.csrf_token }} 
+            <p>
+                {{ form.name.label }} 
+                <br>
+                {{ form.name }}
+            </p>
+            <p>
+                {{ form.email.label }} 
+                <br>
+                {{ form.email(size=30) }}
+            </p>
+            <p>
+                {{ form.facts.label }} 
+                <br>
+                {{ form.facts }}
+            </p>
+            <p>
+                {{ form.sources.label }} 
+                <br>
+                {{ form.sources }}
+            </p>
+            {{ form.recaptcha }}
+            {{ form.submit }}
+        </form>
+    </div>
+</div>
+
+{% endblock %}

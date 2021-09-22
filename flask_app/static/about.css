@@ -1,0 +1,35 @@
+.about {
+    width: 50vw;
+    margin: auto;
+}
+
+
+h1 {
+    margin-bottom: 10vh;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+}
+
+blockquote {
+    border-left: 0.3em solid #222;
+}
+
+.about img {
+    display: block;
+    width: 15vw;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        width: 90vw;
+    }
+    .about img {
+        width: 50vw;
+    }
+}
