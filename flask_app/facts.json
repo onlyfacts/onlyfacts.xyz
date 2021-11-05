@@ -37,10 +37,6 @@
     ],
     "Vaccine Safety": [
         {
-            "fact": "A doctor in Texas testified that when animals were vaccinated, it allowed the virus to enter their bodies and replicate unnoticed. Nearly every animal died. They decided to ignore these results and move on to roll out the vaccine nationwide.",
-            "source": "https://authentictexan.com/doctor-covid-vaccine-dangers-texas/"
-        },
-        {
             "fact": "On table 4 of this study, the data shows that out of the 827 women, 700 of them received their first vaccine in their third trimester of pregnancy. This means 127 women received a vaccine during their first or second trimesters.Out of the 127 women receiving vaccines during their first or second trimesters, 104 spontaneous abortions occurred before their pregnancies hit the 20-week mark. That is an 82% rate of spontaneous abortions in first and second trimester pregnant women.",
             "source": "https://pubmed.ncbi.nlm.nih.gov/33882218/"
         },
@@ -148,7 +144,7 @@
         {
             "fact": [
                 "An Israeli study concluded that natural immunity is better than getting vaccine to protect against COVID and variants.",
-                "This study concluded that the variant was 27 times more likely to break through Pfizer protection from January-February and cause symptoms than it was to penetrate natural immunity from the same period."
+                "This study concluded that the delta variant was 27 times more likely to break through Pfizer protection from January-February and cause symptoms than it was to penetrate natural immunity from the same period."
             ],
             "source": [
                 "https://www.advisory.com/daily-briefing/2021/08/31/covid-protection",
