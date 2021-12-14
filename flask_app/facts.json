@@ -20,6 +20,10 @@
             "source": "https://www.nytimes.com/interactive/2020/us/coronavirus-nursing-homes.html"
         },
         {
+            "fact": "Over 400 studies find nonpharmaceutical interventions such as mask mandates, lockdowns, and school closures have had no discernible impact of virus trajectories.",
+            "source": "https://brownstone.org/articles/more-than-400-studies-on-the-failure-of-compulsory-covid-interventions/"
+        },
+        {
             "fact": "The statistic that 97% of COVID hospitalizations are unvaccinated comes from January-June, 2021. During this period, the vast majority of Americans were not vaccinated.",
             "source": "https://covid19.healthdata.org/united-states-of-america?view=vaccinations&tab=trend"
         },
@@ -33,12 +37,34 @@
                 "https://medicine.yale.edu/labmed/sections/virology/COVID-19%20Ct%20values_YNHH%20Aug.%202020%20_395430_36854_v1.pdf",
                 "https://www.nytimes.com/2020/08/29/health/coronavirus-testing.html"
             ]
+        },
+        {
+            "fact": "The CDC is revoking their Emergency Use Authorization (EUA) for their PCR tests and are now recommending labratories to use tests that \"can facilitate detection and differentiation of SARS-CoV-2 and influenza viruses.\"",
+            "source": "https://www.cdc.gov/csels/dls/locs/2021/07-21-2021-lab-alert-Changes_CDC_RT-PCR_SARS-CoV-2_Testing_1.html"
+        },
+        {
+            "fact": "The FDA is alerting clinical laboratory staff that false positive results can occur with the Roche Molecular Systems, Inc. (Roche) cobas SARS-CoV-2 & Influenza A/B Nucleic Acid Test.",
+            "source": "https://www.fda.gov/medical-devices/letters-health-care-providers/potential-false-results-roche-molecular-systems-inc-cobas-sars-cov-2-influenza-test-use-cobas-liat"
         }
     ],
     "Vaccine Safety": [
         {
             "fact": "On table 4 of this study, the data shows that out of the 827 women, 700 of them received their first vaccine in their third trimester of pregnancy. This means 127 women received a vaccine during their first or second trimesters.Out of the 127 women receiving vaccines during their first or second trimesters, 104 spontaneous abortions occurred before their pregnancies hit the 20-week mark. That is an 82% rate of spontaneous abortions in first and second trimester pregnant women.",
             "source": "https://pubmed.ncbi.nlm.nih.gov/33882218/"
+        },
+        {
+            "fact": [
+                "The American Heart Association looked at cases of myocarditis in young people with an average age of 15.8 years old, and found that cases of myocarditis occurred in 136 patients (97.8%) following mRNA COVID vaccine.",
+                "131 (94.2%) following the Pfizer-BioNTech vaccine; 128 (91.4%) occurred after the 2nd dose. Symptoms started a median of 2 days (range 0-22) after vaccination."
+            ],
+            "source": "https://www.ahajournals.org/doi/pdf/10.1161/CIRCULATIONAHA.121.056583"
+        },
+        {
+            "fact": "New research demonstrates the COVID mRNA vaccine's \"spike proteins significantly inhibit DNA damage repair\" which can lead to \"shortened life span, rapid ageing, impaired growth, and a variety of syndromes, including a pronounced manifestation of cancer.\"",
+            "source": [
+                "https://www.mdpi.com/1999-4915/13/10/2056/htm",
+                "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2262034/"
+            ]
         },
         {
             "fact": "Teenage boys 12-17 are 6 times more likely to suffer heart problems from the vaccine than to be hospitalized from COVID.",
@@ -51,10 +77,6 @@
         {
             "fact": "AstraZeneca, J&J working on 'modifications' to eliminate potentially deadly side effects.",
             "source": "https://www.zerohedge.com/covid-19/astrazeneca-jj-working-modifications-eliminate-potentially-deadly-side-effects"
-        },
-        {
-            "fact": "Vaccinations halted in Japan vaccination center over contamination from 'black substances' found in vials of Moderna vaccines.",
-            "source": "https://www3.nhk.or.jp/nhkworld/en/news/20210829_09/"
         },
         {
             "fact": "Japanese Ministry of Health announced that around 1.6 million doses of Moderna's vaccine have been taken out of use due to contamination in some vials that 'react to magnets.'",
@@ -73,6 +95,10 @@
         {
             "fact": "Report out of Israel found Pfizer vaccine is 39% effective.",
             "source": "https://www.cnbc.com/2021/07/23/delta-variant-pfizer-covid-vaccine-39percent-effective-in-israel-prevents-severe-illness.html"
+        },
+        {
+            "fact": "Study out of University of Oxford finds Pfizer and AstraZenica vaccines cause a \"substantial fall\" in neutralizing antibodies with evidence of some people having none.",
+            "source": "https://www.biorxiv.org/content/10.1101/2021.12.06.471446v1"
         },
         {
             "fact": "Cornell has a 95% vaccination rate, but has 5 times more COVID than it did last year.",
@@ -150,6 +176,10 @@
                 "https://www.advisory.com/daily-briefing/2021/08/31/covid-protection",
                 "https://www.medrxiv.org/content/10.1101/2021.08.24.21262415v1"
             ]
+        },
+        {
+            "fact": "Study from Israel Institute of Technology finds natural immunity offers \"higher (protection) than that conferred by vaccination with two doses.\"",
+            "source": "https://www.medrxiv.org/content/10.1101/2021.12.04.21267114v1.full.pdf"
         }
     ],
     "Vaccine Passports": [
@@ -164,9 +194,13 @@
         {
             "fact": "WHO released plan for global digital vaccine passports funded by Bill Gates and Rockefeller foundation.",
             "source": "https://www.cnbc.com/2021/07/23/delta-variant-pfizer-covid-vaccine-39percent-effective-in-israel-prevents-severe-illness.html"
+        },
+        {
+            "fact": "Philadelphia rolls out COVID-19 vaccination requirements for indoor dining establishments.",
+            "source": "https://6abc.com/covid-19-vaccination-philadelphia-restaurants-indoor-dining-philly-vaccine-mandate/11334019/"
         }
     ],
-    "We are not alone": [
+    "Global Movements": [
         {
             "fact": "Hospital forced to stop delivering babies in Lowville, New York after maternity unit workers resign over vaccine mandates.",
             "source": "https://www.wwnytv.com/2021/09/10/hospital-stop-delivering-babies-maternity-workers-resign-over-vaccine-mandate/"
@@ -174,6 +208,10 @@
         {
             "fact": "24 states stand against vaccine mandates for businesses.",
             "source": "https://ago.wv.gov/Documents/AGs'%20letter%20to%20Pres.%20Biden%20on%20vaccine%20mandate%20(FINAL)%20(02715056xD2C78).PDF"
+        },
+        {
+            "fact": "Hackers delete Brazilian vaccine registry with the message, \"We are all unvaccinated.\"",
+            "source": "https://www.theepochtimes.com/brazil-health-ministry-website-hit-by-hackers-vaccination-data-targeted_4150614.html"
         },
         {
             "fact": "125 Indiana hospital employees quit over COVID vaccine mandate.",
